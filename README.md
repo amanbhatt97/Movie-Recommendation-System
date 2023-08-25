@@ -38,11 +38,13 @@ The **Movie Recommendation System** is implemented as a Streamlit web applicatio
 
 ## Project Structure
 
-- `app.py`: Streamlit app code.
-- `models/`: Directory containing the pre-trained models.
 - `data/`: Directory containing the movies datasets.
-- `requirements.txt`: List of required Python packages and their versions.
+- `models/`: Directory containing the pre-trained models.
+- `app.py`: Streamlit app code.
+- `mrs_analysis.ipynb`: Notebook containing all the analysis and model training.
 - `README.md`: Overview of the project (you're reading it right now!).
+- `requirements.txt`: List of required Python packages and their versions.
+
 
 ## Web App
 
