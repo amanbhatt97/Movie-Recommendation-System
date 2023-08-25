@@ -1,5 +1,6 @@
 # Movie-Recommendation-System
 The Movie Recommendation System is a machine learning-based web application that recommend movies based on user input.
+
 Access the deployed Streamlit web app [here](https://recommend-movies-app.streamlit.app/).
 
 ## Table of Contents
