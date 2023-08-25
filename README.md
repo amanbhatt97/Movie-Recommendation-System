@@ -40,7 +40,7 @@ The **Movie Recommendation System** is implemented as a Streamlit web applicatio
 
 - `app.py`: Streamlit app code.
 - `models/`: Directory containing the pre-trained models.
-- 'data/': Directory containing the movies datasets.
+- `data/`: Directory containing the movies datasets.
 - `requirements.txt`: List of required Python packages and their versions.
 - `README.md`: Overview of the project (you're reading it right now!).
 
