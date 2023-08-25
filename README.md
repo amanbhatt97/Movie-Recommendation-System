@@ -14,7 +14,7 @@ The Movie Recommendation System is a machine learning-based web application that
 
 ## Description
 
-The **Movie Recommendation System** is implemented as a Streamlit web application. It utilizes a pre-trained machine learning model to make predictions.  It uses a powerful algorithm known as **cosine similarity** to analyze the relationships between movies. By comparing key attributes and features of movies in our database, we can identify similarities and recommend films that are likely to resonate with your tastes.
+The **Movie Recommendation System** is implemented as a Streamlit web application. It uses a powerful algorithm known as **cosine similarity** to analyze the relationships between movies. By comparing key attributes and features of movies in our database, we can identify similarities and recommend films that are likely to resonate with your tastes.
 
 ## Technologies Used
 
