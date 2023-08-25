@@ -1,5 +1,5 @@
 # Movie-Recommendation-System
-The Movie Recommendation System is a machine learning-based web application that that suggests similar movies based on user input using cosine similarity.
+The Movie Recommendation System is a machine learning-based web application that suggests similar movies based on user input using cosine similarity.
 
 ## Table of Contents
 
