@@ -28,7 +28,8 @@ The **Movie Recommendation System** is implemented as a Streamlit web applicatio
 ## Installation
 
 1. Clone this repository to your local machine: git clone https://github.com/amanbhatt97/Movie-Recommendation-System
-2. Install the required dependencies using `pip`: pip install -r requirements.txt
+2. Clone this repository to your local machine: `git clone https://github.com/amanbhatt97/Movie-Recommendation-System`
+3. Install the required dependencies using `pip`: pip install -r requirements.txt
 
  ## Usage
 
