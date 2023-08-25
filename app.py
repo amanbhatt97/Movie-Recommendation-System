@@ -91,8 +91,12 @@ similarity = joblib.load(os.path.join(model_path, 'similarity.pkl'))
 
 #----- front_end operations -----#
 
+# side bar
+st.sidebar.info("Welcome to the Movie Recommender dashboard!")
+
 # title for server 
 st.title("Movie Recommender System")
+st.markdown("---")
 
 # selectbox to type or select movie
 selected_movie_name = st.selectbox(
@@ -134,3 +138,33 @@ if st.button('Show Recommendations'):
     with col6:
         st.text(names[5])
         st.image(posters[5])
+
+
+# Define usage instructions as a string
+usage_instructions = """
+**User Instructions**
+
+1. Type or select a movie from dropdown.
+2. Click on **Show Recommendations** button.
+
+"""
+
+with st.sidebar:
+    st.markdown("---")
+    st.markdown(usage_instructions)
+    st.markdown("---")
+
+with st.container():
+    st.markdown("---")
+    st.subheader("About the Dashboard")
+    st.markdown("Welcome to the Movie Recommendation System Dashboard!")
+    st.markdown("This interactive application leverages advanced machine learning techniques to provide you with personalized movie recommendations based on your preferences. Whether you're in the mood for action-packed thrillers, heartwarming dramas, or side-splitting comedies, this dashboard has got you covered.")
+    st.markdown("Feel free to explore, discover new favorites, and broaden your cinematic horizons. With the Movie Recommendation System Dashboard, the perfect movie night is just a click away!")
+    st.markdown("---")
+    st.subheader("Contact Information")
+    st.markdown("Feel free to reach out to me if you have any questions or feedback. You can find me on:")
+    st.markdown("Mail: [amanbhatt.1997.ab@gmail.com](mailto:amanbhatt.1997.ab@gmail.com)")
+    st.markdown("Linkedin: [amanbhatt97](https://www.linkedin.com/in/amanbhatt1997/)")
+    st.markdown("Github: [amanbhatt97](https://github.com/amanbhatt97)")
+    st.markdown("Checkout my portfolio [here](https://amanbhatt97.github.io/portfolio/).")
+    st.markdown("---")
