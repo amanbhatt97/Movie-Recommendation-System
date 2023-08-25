@@ -142,15 +142,13 @@ if st.button('Show Recommendations'):
 
 # Define usage instructions as a string
 usage_instructions = """
-**User Instructions**
-
 1. Type or select a movie from dropdown.
 2. Click on **Show Recommendations** button.
-
 """
 
 with st.sidebar:
     st.markdown("---")
+    st.sidebar.info('User Instructions')
     st.markdown(usage_instructions)
     st.markdown("---")
 
